@@ -7,4 +7,12 @@ and open the template in the editor.
     Created on : Jul 18, 2015, 5:58:23 PM
     Author     : Jason
 */
+@media (max-width: 650px) {
+    
+.container {
+    background-color:#EEDB00;
+    font-family: Comic Sans MS,Arial;
+}
 
+    
+}
