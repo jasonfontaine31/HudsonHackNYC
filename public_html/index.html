@@ -10,21 +10,21 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-signin-client_id" content="915837520039-v3ib7d82vqcrp8fh77d2uv0gf8hoqs7b.apps.googleusercontent.com">
-    </head>
-    <body>
+        <link rel="stylesheet" type="text/css" href="Css/IwanttoBe.css">
+        <link rel="stylesheet" type="text/css" href="Css/login.css">
         <script src="js/loginScripts.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
+    </head>
+    <body>
         <div class = "container">
-            <p>
-                email: <input type="text" name="fname">
+            <div class="inputField">
+                <input type="text" name="Email" value="email">
                 <br>
-                password: <input type="text" name="fname">
-            </p>
-            <p>
+                <input type="password" name="Password" value="password">
+                <br>
                 <input type="submit" value="Sign Up" name="Sign Up" />
                 <input type="submit" value="Sign In" name="Sign In" />
-            </p>
-            <table>
+            <table class="socialMedia">
                 <tr>
                     <td>
                         <div class="g-signin2" data-onsuccess="onSignIn"></div>
@@ -34,6 +34,5 @@ and open the template in the editor.
                     </td>
                 </tr>
             </table>
-        </div>
     </body>
 </html>
