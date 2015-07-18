@@ -6,11 +6,34 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Log In</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-signin-client_id" content="915837520039-v3ib7d82vqcrp8fh77d2uv0gf8hoqs7b.apps.googleusercontent.com">
     </head>
     <body>
-        <div>TODO write content</div>
+        <script src="js/loginScripts.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <div class = "container">
+            <p>
+                email: <input type="text" name="fname">
+                <br>
+                password: <input type="text" name="fname">
+            </p>
+            <p>
+                <input type="submit" value="Sign Up" name="Sign Up" />
+                <input type="submit" value="Sign In" name="Sign In" />
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                    </td>
+                    <td>
+                        <div class="fb-login-button" data-max-rows="3" data-size="large" data-show-faces="true" data-auto-logout-link="true"></div>     
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
