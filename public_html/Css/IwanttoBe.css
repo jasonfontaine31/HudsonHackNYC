@@ -9,18 +9,24 @@ and open the template in the editor.
 */
 @media (max-width: 650px) {
     
-.container {
-    background-color:#EEDB00;
-    height: 100%;
-    font-family: Comic Sans MS;
-    color: 
-}
-
-.container h1 {color: #8B88FF;}
-.choice{
+    .container {background-color:#EEDB00;height: 100vh;font-family: Comic Sans MS;color: #7BB31A;}
+    .container h1 {color: #8B88FF;}
+    .options {
+        width: 80%;
+        margin: 20px 25px;
+    }
+    .choice{
+        height: 200px;
+        width: 200px;
+        background-color:#FF9C00;
+        display:inline-block;
+        text-align: center;
     
+        border: 1px dashed blue;
+        /* padding: 20px; */
 }
-.choice.A {}
+    /*choice.A {}*/
+    
 
     
 }
