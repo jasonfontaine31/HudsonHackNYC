@@ -11,8 +11,15 @@ and open the template in the editor.
     
 .container {
     background-color:#EEDB00;
-    font-family: Comic Sans MS,Arial;
+    height: 100%;
+    font-family: Comic Sans MS;
+    color: 
 }
+.container h1 {color: #8B88FF;}
+.choice{
+    
+}
+.choice.A {}
 
     
 }
