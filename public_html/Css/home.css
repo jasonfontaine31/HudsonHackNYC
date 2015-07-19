@@ -91,5 +91,3 @@ div .Career-Grid{
 .people li, .tags li{display:inline;}
 .people,.tags{display:none;}
 .people.on,.tags.on {display:block;}
-.twitter-timeline {display:none;}
-.twitterFeed{display: none;}
