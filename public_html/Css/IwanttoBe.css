@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 @media (max-width: 650px) {
     
-    .container {background-color:#EEDB00;height: 100vh;font-family: Comic Sans MS;color: #7BB31A;margin:0px}
+    .container {background-color:#EEDB00;height: 100%;font-family: Comic Sans MS;color: #7BB31A;margin:0px}
     .container h1 {color: #8B88FF;margin: 0px}
     .options {
         width: 85%;
