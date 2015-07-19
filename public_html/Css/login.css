@@ -15,7 +15,7 @@ and open the template in the editor.
         position: relative;
         top: 34%;
 }
-     .socialMedia{
+    .socialMedia{
          /* text-align:center; */
          display: inline-table;
          margin: 10px;
@@ -23,5 +23,17 @@ and open the template in the editor.
          /* float: left; */      
          /* vertical-align: top; */      
          /* width: 50%; */
-}
+    }
+    .submit {
+        background-color: #ccc;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius:6px;
+        color: #fff;
+        font-family: 'Oswald';
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        border:none;
+    }
 }
