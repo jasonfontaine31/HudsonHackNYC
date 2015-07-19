@@ -17,13 +17,16 @@ and open the template in the editor.
     </head>
     <body>
         <div class = "container">
+             <div class ="logo">
+                <img class='img' src="images/logo.png" alt="logo">
+            </div>
             <div class="inputField">
-                <input type="text" name="Email" value="email">
+                <input class ="textFields" type="text" name="Email" value="email">
                 <br>
-                <input type="password" name="Password" value="password">
+                <input class ="textFields" type="password" name="Password" value="password">
                 <br>
                 <input class="submit" type="submit" value="Sign Up" name="Sign Up" />
-                <input class="submit" type="submit" value="Sign In" name="Sign In" onclick="window.location.href='subject.html'" />
+                <input class="submit" type="submit" value="Sign In" name="Sign In" onclick="window.location.href='home.html'" />
                 <ul>
                     <li>
                         <div class="g-signin2" data-onsuccess="onSignIn"></div>
