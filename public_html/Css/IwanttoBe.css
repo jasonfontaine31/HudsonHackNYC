@@ -9,8 +9,12 @@ and open the template in the editor.
 */
 @media (max-width: 650px) {
     
-    .container {background-color:#EEDB00;height: 100vh;font-family: Comic Sans MS;color: #7BB31A;}
-    .container h1 {color: #8B88FF;}
+    .container {
+        background-color:#FFDBAC;
+        height: 100vh;
+        font-family: Comic Sans MS;
+    }
+    .container h1 {color: #EB6841;}
     .options {
         width: 80%;
         margin: 20px 25px;

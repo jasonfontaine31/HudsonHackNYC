@@ -9,11 +9,71 @@ and open the template in the editor.
 */
 
 h1{
-    text-align: center
+    text-align: center;
+    color: #EB6841
+}
+
+body{
+    background-color: #FFDBAC;
+}
+
+.grid{
+    display: inline-block;
+    margin: 30px;
+    text-align:center;
 }
 
 div .Career-Grid{
     list-style-type: none;
-    float: left
-     
+    float: left;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center
+    
+}
+
+li{
+    height: 90px;
+    width: 90px;
+    margin: 0px
+}
+
+#red{
+    background-color: #FF0000;
+    backface-visibility: visible
+}
+
+#orange{
+    background-color: #FF7F00
+}
+
+#yellow{
+    background-color: #FFFF00
+}
+
+#pink{
+    background-color: #FF99CC
+}
+
+#blue{
+    background-color: #70AFEE
+}
+
+#indigo{
+    background-color: #AB5DE3
+}
+
+#violet{
+    background-color: #EE82EE  
+}
+
+#gold{
+    background-color: #C5B358
+}
+
+#green{
+    background: #84D484
 }
