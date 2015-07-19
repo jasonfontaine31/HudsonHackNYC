@@ -9,26 +9,39 @@ and open the template in the editor.
 */
 @media (max-width: 650px) {
     
-    .container {background-color:#EEDB00;height: 100vh;font-family: Comic Sans MS;color: #7BB31A;}
-    .container h1 {color: #8B88FF;}
+    .container {background-color:#EEDB00;height: 100vh;font-family: Comic Sans MS;color: #7BB31A;margin:0px}
+    .container h1 {color: #8B88FF;margin: 0px}
     .options {
-        width: 80%;
-        margin: 20px 25px;
+        width: 85%; */
+  /* margin: 20px 25px; */
+  text-align: center;
+  list-style-type: none;
+  border-top: 1px solid;
+  padding: 0px;
     }
-    .choice{
-        height: 200px;
-        width: 200px;
+    .options li{
+        height: 150px;
+        width: 150px;
         background-color:#FF9C00;
         display:inline-block;
         text-align: center;
-    
-        border: 1px dashed blue;
-        /* padding: 20px; */
+        margin: 25px;
 }
-    /*choice.A {}*/
+.options li:hover {
+    background-color:#ffaf32;
+    transition: background-color 0.5s ease;
+}
+.options a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-top: 40%;
+}
     
 
     
 }
+
+
 
 
