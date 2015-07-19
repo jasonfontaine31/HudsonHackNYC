@@ -19,28 +19,52 @@ and open the template in the editor.
         <script src="https://apis.google.com/js/platform.js" async defer></script>
     </head>
     <body>
-        <div class = "container"> 
+        <!--Fixed position title-->
+        <div class = "header"> 
             <div class ="logo">
                 <img class='img' src="images/logo.png" alt="logo">
             </div>
-            
-            <h1>I Want To Be</h1>
-        <div class="grid">
-            <ul class="Career-Grid">
-                <li class ="colorSquareLi" id="red"></li>
-                <li class ="colorSquareLi" id="pink"></li>
-                <li class ="colorSquareLi" id="orange"></li>
-            </ul>
-            <ul class="Career-Grid">
+        </div>
+        
+        <!--The scrolling content-->
+        <div class="container">
+            <h1 class="title">I Want To Be</h1>
+            <div class="grid">
+                <table>
+                    <tr>
+                        <td id="red"></td>
+                        <td id="orange"></td>
+                        <td id="yellow"></td>
+                    </tr>
+                    <tr>
+                        <td id="pink"></td>
+                        <td id="blue">
+                            <img src="images/scientist.jpg">
+                        </td>
+                        <td id="indigo"></td>
+                    </tr>
+                    <tr>
+                        <td id="violet"></td>
+                        <td id="gold"></td>
+                        <td id="green"></td>
+                    </tr>
+                </table>
+<!--                <ul class="Career-Grid">
+                    <li class ="colorSquareLi" id="red"></li>
+                    <li class ="colorSquareLi" id="pink"></li>
+                    <li class ="colorSquareLi" id="orange"></li>
+                </ul>
+                <ul class="Career-Grid">
                 <li class ="colorSquareLi" id="indigo"></li>
-                <li class ="colorSquareLi" id="blue"></li>
+                <li class ="colorSquareLi" id="blue">
+                </li>
                 <li class ="colorSquareLi" id="gold"></li>
             </ul>
-            <ul class="Career-Grid">
+                <ul class="Career-Grid">
                 <li class ="colorSquareLi" id="yellow"></li>
                 <li class ="colorSquareLi" id="violet"></li>
                 <li class ="colorSquareLi" id="green"></li>
-            </ul>
+            </ul>-->
         </div>
             <div class="inputField">
                 <input class ="textFields" type="text" name="Email" value="Email">
@@ -59,9 +83,8 @@ and open the template in the editor.
                 </ul>
             </div>
             <div class='infopage'>
+                <h1 class="scientist-title">Scientist</h1>
                 <p>
-                Intro: 
-                A scientist is a person who is interesting in the different fields of science.
                 Scientists study all types of fields, from finding out how
                 much gas is needed to send a rocket ship into the sky to making video games
                 and images that show up on your television.
