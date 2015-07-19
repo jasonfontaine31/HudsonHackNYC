@@ -8,9 +8,11 @@ and open the template in the editor.
     Author     : Celeste
 */
 
-.category-header {
+.category-header{
     text-align: center;
     padding:30px;
+    font-size: 28pt;
+    color: #03396c;
 }
 
 .categories {
@@ -20,29 +22,33 @@ and open the template in the editor.
     padding: 0px;
     margin-bottom: 10px;
     text-align: center;
-    
+    color: #03396c;
 }
 
 #astronomy {
     background-color: #00d2ff;
     padding: 15px;
-    border-radius: 25px
+    border-radius: 25px;
+    margin: 10px 0px;
 }
 
 #biology {
     background-color: #88d8b0;
     padding: 15px;
-    border-radius: 25px
+    border-radius: 25px;
+    margin: 10px 0px;
 }
 
 #chemistry {
     background-color: #fe8181;
     padding: 15px;
-    border-radius: 25px
+    border-radius: 25px;
+    margin: 10px 0px;
 }
 
 #physics {
     background-color: #F4F43D;
     padding: 15px;
-    border-radius: 25px
+    border-radius: 25px;
+    margin: 10px 0px;
 }

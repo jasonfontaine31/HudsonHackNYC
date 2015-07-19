@@ -8,45 +8,73 @@ and open the template in the editor.
     Author     : Jason
 */
 @media (max-width: 650px) {
-    
+    .header {
+        position: fixed;
+        top: 0px;
+        padding-top: 20px;
+        z-index: 1;
+        opacity: 1;
+        background-color: #FFDBAC;
+    }
+    .logo{
+        text-align:center;
+        zoom: 85%;
+    }
+    .img{
+        margin-top: 0px;
+    }
     .container {
         background-color:#FFDBAC;
-        height: 100%;
+        /* height: 100%; */
         font-family: Comic Sans MS;
         width: 100%;
-        padding: 0px;
-        margin: 0px;
+        height: 100vh;
+        /* padding: 0px; */
+        margin-top: 90px;
         border: 0px;
-}
-    .container h1 {color: #EB6841;}
+    }
+
     .options {
         width: 85%;
-  /* margin: 20px 25px; */
-  text-align: center;
-  list-style-type: none;
-  
-        /* border-top: 1px solid; */
-  padding: 0px;
-    }
-    .options li{
-        background-color:#FF9C00;
-        display:block;
-        text-align: left;
-        height: 50px;
-        margin: 12px 0px;
-        /* padding: 25px; */
-        padding-top: 32px;
-}
-.options a {
-    postion: relative;
-    /* margin: 24px; */
-    /* margin-top: 48px; */
-    text-decoration: none;
-    /* padding-top: 9px; */
-    margin: 0px 30px 0px;
-}
-    
+    /* margin: 20px 25px; */
+    text-align: center;
+    list-style-type: none;
 
+          /* border-top: 1px solid; */
+    padding: 0px;
+      }
+    .options li{
+          background-color:#FF9C00;
+          display:block;
+          text-align: left;
+          height: 50px;
+          margin: 12px 0px;
+          /* padding: 25px; */
+          padding-top: 32px;
+    }
+    .options a {
+          postion: relative;
+          /* margin: 24px; */
+          /* margin-top: 48px; */
+          text-decoration: none;
+          /* padding-top: 9px; */
+          margin: 0px 30px 0px;
+    }
+    .socialLogin {
+        list-style-type: none;
+        float: left
+    }
+    .scientist-title h1{
+        color: #00d2ff;
+        font-size: 25pt;
+    }
+    .infopage h1{
+        color: #03396c;;
+    }
+    .infopage {
+        padding: 20px;
+        color: #005b96;
+    }
     
 }
 

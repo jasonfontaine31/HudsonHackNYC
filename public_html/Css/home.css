@@ -19,23 +19,23 @@ body{
 
 .grid{
     /* display: inline-block; */
-    margin: 0px;
+    margin: 30px;
     padding: 0px;
     text-align: center;
 }
 
 div .Career-Grid{
     list-style-type: none;
-    /* margin: 0px; */
+    margin: 0px;
     padding: 0px;
-    /* text-align: center; */
+    text-align: center;
     display: inline-block;
+    /* top: -90px; */
 }
 .colorSquareUl{
     margin: 0px;
     padding: 0px;
-    text-align: center
-    
+    text-align: center;
 }
 
 .colorSquareLi{
@@ -45,44 +45,93 @@ div .Career-Grid{
     padding: 0px;
 }
 
+.color-square-table {
+    margin: auto;
+}
+
 #red{
     background-color: #FF0000;
-    backface-visibility: visible
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
 }
 
 #orange{
-    background-color: #FF7F00
+    background-color: #FF7F00;
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
 }
 
 #yellow{
-    background-color: #FFFF00
+    background-color: #FFFF00;
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
 }
 
 #pink{
-    background-color: #FF99CC
+    background-color: #FF99CC;
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
 }
 
 #blue{
-    background-color: #70AFEE
+/*    list-style-image: url("images/scientist.jpg");*/
+    background-color: #00d2ff;
+    padding: 0px;
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
+}
+
+#blue:hover {
+    transform: scale(1.5);
 }
 
 #indigo{
-    background-color: #AB5DE3
+    background-color: #AB5DE3;
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
 }
 
 #violet{
-    background-color: #EE82EE  
+    background-color: #EE82EE;
+    border-radius: 25px;
+    margin:5px;
 }
 
 #gold{
-    background-color: #C5B358
+    background-color: #C5B358;
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
 }
 
 #green{
-    background: #84D484
+    background: #84D484;
+    border-radius: 25px;
+    margin:5px;
+    height: 90px;
+    width: 90px;
 }
 .youtube {
     text-align: center;
 }
-.socialLogin{text-decoration: none;}
-.socialLogin li {display: inline;border: 1px dashed red;}
+.socialLogin{
+    text-decoration: none;
+}
+.socialLogin li {
+    display: inline;
+    padding: 0px;
+    border: 1px dashed red;
+}
