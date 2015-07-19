@@ -16,23 +16,36 @@ and open the template in the editor.
     }
     .container h1 {color: #EB6841;}
     .options {
-        width: 80%;
-        margin: 20px 25px;
+        width: 85%;
+  /* margin: 20px 25px; */
+  text-align: center;
+  list-style-type: none;
+  border-top: 1px solid;
+  padding: 0px;
     }
-    .choice{
-        height: 200px;
-        width: 200px;
+    .options li{
+        height: 150px;
+        width: 150px;
         background-color:#FF9C00;
         display:inline-block;
         text-align: center;
-    
-        border: 1px dashed blue;
-        /* padding: 20px; */
+        margin: 25px;
 }
-    /*choice.A {}*/
+.options li:hover {
+    background-color:#ffaf32;
+    transition: background-color 0.5s ease;
+}
+.options a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-top: 40%;
+}
     
 
     
 }
+
+
 
 
