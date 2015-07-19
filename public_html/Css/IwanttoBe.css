@@ -13,14 +13,19 @@ and open the template in the editor.
         background-color:#FFDBAC;
         height: 100%;
         font-family: Comic Sans MS;
-    }
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+}
     .container h1 {color: #EB6841;}
     .options {
         width: 85%;
   /* margin: 20px 25px; */
   text-align: center;
   list-style-type: none;
-  border-top: 1px solid;
+  
+        /* border-top: 1px solid; */
   padding: 0px;
     }
     .options li{

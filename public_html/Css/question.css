@@ -25,6 +25,7 @@ ul.choices{
     width:100%;
     text-align: left;
     padding: 0px;
+    margin: 27px 0px;
 }
-p.hint {margin-top: 92px;}
+p.hint {margin-top: 92px;color: #EB6841;}
 .hint span {float: right;border: 1px solid blue;}

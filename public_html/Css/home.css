@@ -31,7 +31,6 @@ div .Career-Grid{
     /* text-align: center; */
     display: inline-block;
 }
-
 .colorSquareUl{
     margin: 0px;
     padding: 0px;
@@ -82,3 +81,8 @@ div .Career-Grid{
 #green{
     background: #84D484
 }
+.youtube {
+    text-align: center;
+}
+.socialLogin{text-decoration: none;}
+.socialLogin li {display: inline;border: 1px dashed red;}

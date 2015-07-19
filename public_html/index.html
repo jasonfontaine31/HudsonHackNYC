@@ -12,6 +12,7 @@ and open the template in the editor.
         <meta name="google-signin-client_id" content="915837520039-v3ib7d82vqcrp8fh77d2uv0gf8hoqs7b.apps.googleusercontent.com">
         <link rel="stylesheet" type="text/css" href="Css/IwanttoBe.css">
         <link rel="stylesheet" type="text/css" href="Css/login.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="Css/home.css">
         <script src="js/loginScripts.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -41,13 +42,13 @@ and open the template in the editor.
             </ul>
         </div>
             <div class="inputField">
-                <input class ="textFields" type="text" name="Email" value="email">
+                <input class ="textFields" type="text" name="Email" value="Email">
                 <br>
-                <input class ="textFields" type="password" name="Password" value="password">
+                <input class ="textFields" type="text" id="password" name="Password" value="Password">
                 <br>
                 <input class="submit" type="submit" value="Sign Up" name="Sign Up" />
                 <input class="submit" type="submit" value="Sign In" name="Sign In" onclick="window.location.href='home.html'" />
-                <ul>
+                <ul class="socialLogin">
                     <li>
                         <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     </li>
@@ -72,8 +73,9 @@ and open the template in the editor.
                     "Research is what I'm doing when I don't know what I'm doing." -
                     Wernher von Braun
                 </p>
-                <p>
-                    <iframe width="315" height="315" src="https://www.youtube.com/embed/PGRRXKek8G0" frameborder="0" allowfullscreen></iframe>                </p>
+                <div class="youtube">
+                    <iframe width="315" height="315" align="center" src="https://www.youtube.com/embed/PGRRXKek8G0" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </body>

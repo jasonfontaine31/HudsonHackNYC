@@ -19,3 +19,20 @@ FB.init({
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
  
+ 
+ $(document).ready(function() {
+    $(".textFields").click(function()
+    {
+//        alert($('.textFields').value);
+        $(this).select(); 
+    } );
+    $('#password').keydown(function(e) {
+        if($(this).attr("type") == "text")
+        {
+            //alert(e.keyCode);
+            
+            $(this).attr("type","password");
+            $(this).val("");
+        }
+    });
+});
