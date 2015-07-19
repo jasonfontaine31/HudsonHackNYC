@@ -11,7 +11,7 @@ and open the template in the editor.
     
     .container {
         background-color:#FFDBAC;
-        height: 100vh;
+        height: 100%;
         font-family: Comic Sans MS;
     }
     .container h1 {color: #EB6841;}

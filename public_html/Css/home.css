@@ -18,27 +18,32 @@ body{
 }
 
 .grid{
-    display: inline-block;
-    margin: 30px;
-    text-align:center;
+    /* display: inline-block; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
 div .Career-Grid{
     list-style-type: none;
-    float: left;
+    /* margin: 0px; */
+    padding: 0px;
+    /* text-align: center; */
+    display: inline-block;
 }
 
-ul{
+.colorSquareUl{
     margin: 0px;
     padding: 0px;
     text-align: center
     
 }
 
-li{
+.colorSquareLi{
     height: 90px;
     width: 90px;
-    margin: 0px
+    margin: 0px;
+    padding: 0px;
 }
 
 #red{

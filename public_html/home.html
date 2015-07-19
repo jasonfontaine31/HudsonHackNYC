@@ -5,7 +5,7 @@
         <title>I Want To Be</title>
         <link rel="stylesheet" type="text/css" href="Css/IwanttoBe.css">
         <link rel="stylesheet" type="text/css" href="Css/home.css">
-        <style></style>
+        <link rel="stylesheet" type="text/css" href="Css/login.css">
     </head>
     
     <body>
@@ -29,9 +29,47 @@
                 <li id="green"></li>
             </ul>
         </div>
+        <div class ="logo">
+                <img class='img' src="images/logo.png" alt="logo">
+            </div>
+            <div class="inputField">
+                <input class ="textFields" type="text" name="Email" value="email">
+                <br>
+                <input class ="textFields" type="password" name="Password" value="password">
+                <br>
+                <input class="submit" type="submit" value="Sign Up" name="Sign Up" />
+                <input class="submit" type="submit" value="Sign In" name="Sign In" onclick="window.location.href='home.html'" />
+                <ul>
+                    <li>
+                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                    </li>
+                    <li>
+                        <div class="fb-login-button" data-max-rows="3" data-size="large" data-show-faces="true" data-auto-logout-link="true"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class='infopage'>
+                <p>
+                    Intro: <br> 
+                    A scientist is a person who is interesting in the different fields of science.
+                    Scientists study all types of fields, from finding out how
+                    much gas is needed to send a rocket ship into the sky to making video games
+                    and images that show up on your television.
+                </p>
+                <p>
+                    Quotes: <br>
+                    "The fewer the facts, the stronger the opinion." -
+                    Arnold H. Glasow
+                    <br>
+                    "Research is what I'm doing when I don't know what I'm doing." -
+                    Wernher von Braun
+                </p>
+                <p>
+                    Videos: <br>
+                    <iframe width="315" height="315" src="https://www.youtube.com/embed/PGRRXKek8G0" frameborder="0" allowfullscreen></iframe>                
+                </p>
+            </div>
+        </div>
     </div>
     </body>
-    
-    
-    
 </html>
