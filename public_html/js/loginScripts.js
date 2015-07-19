@@ -35,4 +35,13 @@ FB.init({
             $(this).val("");
         }
     });
+    $('.noLoad li  a').click(function(e) {
+        e.preventDefault();
+        var text = $(this).text();
+        $(text).toggleClass("hidden");
+        // depending if the code is showing a twitter feed or showing people
+    });
+    $('.showMore').click(function(){
+        $('.people,.tags').toggle(" on");
+    });
 });

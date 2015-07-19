@@ -86,3 +86,10 @@ div .Career-Grid{
 }
 .socialLogin{text-decoration: none;}
 .socialLogin li {display: inline;border: 1px dashed red;}
+.noLoad li a { text-decoration:none;color;#000;}
+.noLoad li { margin: 0px 12px;}
+.people li, .tags li{display:inline;}
+.people,.tags{display:none;}
+.people.on,.tags.on {display:block;}
+.twitter-timeline {display:none;}
+.twitterFeed{display: none;}
