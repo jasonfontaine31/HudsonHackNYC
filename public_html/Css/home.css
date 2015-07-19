@@ -136,37 +136,3 @@ div .Career-Grid{
     padding: 0px;
     border: 1px dashed red;
 }
-.myCareerPath{
-    text-align: left;
-    font-size: 30px;
-    /* border-bottom-color: black; */
-    list-style-type: none;
-}
-
-.myCareerPath-title h1{
-    color: #005b96;
-    font-size: 30pt;
-}
-
-.myCareerPath li{
-    font-size: 25px;
-    /*/ border-top-left-radius: 3px; /*/
-    /*/ border-top-right-radius: 3px; /*/
-    padding-top: 20px;
-    /*/ border-color: black; /*/
-    /*/ border-radius: 3px 3px 0 0; /*/
-    /*/ border-bottom: 1px solid black; /*/
-    margin-top: 0px 0px;
-}
-.meter { 
- height: 15px;  /* Can be anything /*/
- position: relative;
- background: #555;
- -moz-border-radius: 25px;
- -webkit-border-radius: 25px;
- border-radius: 25px;
- padding: 10px;
- margin-top: 0px;
- margin-right: 10px;
- box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
-}
