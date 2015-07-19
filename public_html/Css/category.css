@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2015, 4:15:07 AM
+    Author     : Celeste
+*/
+
+.category-header {
+    text-align: center;
+    padding:30px;
+}
+
+.categories {
+    list-style-type: none;
+    font-size: 20pt;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+#astronomy {
+    background-color: #00d2ff;
+    padding: 15px;
+    border-radius: 25px
+}
+
+#biology {
+    background-color: #88d8b0;
+    padding: 15px;
+    border-radius: 25px
+}
+
+#chemistry {
+    background-color: #fe8181;
+    padding: 15px;
+    border-radius: 25px
+}
+
+#physics {
+    background-color: #F4F43D;
+    padding: 15px;
+    border-radius: 25px
+}
